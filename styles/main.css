@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Permanent+Marker&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.navbar {
+}
+
+/* ICONES SOCIAL */
+.social {
+	height: 1.5vh;
+	position: absolute;
+	right: 2vw;
+	top: 2vh;
+}
+
+.fa-brands {
+	font-size: 1.5rem;
+	margin: 2vw;
+}
+.fa-youtube {
+	color: red;
+}
+.input-group {
+	position: relative;
+	/* right: -20vw; */
+	left: 20vw;
+}
+
+.searchBtn {
+	height: 100%;
+}
+/*  END OF ICONES SOCIAL */
+
+h1 {
+	text-align: center;
+	margin-top: 5vh;
+	font-size: 3rem;
+	font-family: "Dancing Script", cursive;
+	/* font-family: "Permanent Marker", cursive; */
+}
+.Image {
+	width: 55%;
+	position: relative;
+	left: 50vw;
+	margin-top: 3vh;
+	transform: translateX(-50%);
+}
+
+/* .containerLogo {
+	width: 1vw;
+	height: 1vh;
+} */
+
+.logo {
+	height: 17%;
+	width: 17%;
+
+	/* CARD */
+}
+.download {
+	background-color: #255;
+}
+
+.delete {
+	background-color: #250000;
+}
+
+.bi {
+	font-size: 1.5rem;
+	color: black;
+}
+
+.download:hover {
+	color: #255;
+}
+
+.delete:hover {
+	color: #250000;
+}
+
+/*  END OF CARD */
+
+/* FOOTER */
+
+footer {
+	position: relative;
+	left: 25%;
+	margin-bottom: 1.5vh;
+}
