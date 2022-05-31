@@ -16,10 +16,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
+                        <a class="nav-link " href="index.php">Acceuil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./views/create.php">Publier</a>
+                        <a class="nav-link" href="create.php">Publier</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Pricing</a>

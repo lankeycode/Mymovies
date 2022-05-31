@@ -40,13 +40,15 @@ require_once 'includes/nav.php';
 		<input type="search" id="formSearch" class="form-control" />
 		<label class="form-label" for="formSearch">Trouver un film</label>
 	</div>
-	<button type="button" class="btn searchBtn btn-primary">
+	<button class="" type="button" class="btn searchBtn btn-primary">
 		<i class="fas fa-search"></i>
 	</button>
 </div>
 
 
 <h1>My Movies</h1>
+
+<div class="test"></div>
 
 <img class="Image" src="./images/3D_Glasses_2_by_Merlin2525.png" alt="#">
 
