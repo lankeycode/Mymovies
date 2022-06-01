@@ -6,7 +6,7 @@ require_once 'includes/nav.php';
 
 <main>
 	<h3 class="text-center mb-20">Publier un nouveau un film</h3>
-	<form class="container">
+	<form class="container" method="POST">
 		<div class="mb-3">
 			<label for="title">Titre</label>
 			<input type="text" id="title" placeholder="Le titre du film" />
@@ -14,6 +14,12 @@ require_once 'includes/nav.php';
 		<div class="mb-3">
 			<label for="synopsis">Synopsis</label>
 			<textarea name="synopsis" id="synopsis" placeholder="description du film" cols="40" rows="10"></textarea>
+		</div>
+		<div class="mb-3">
+			<div>
+				<label for="url">Url de l'image du film</label>
+			</div>
+			<input type="text" name="url" id="url">
 		</div>
 		<!-- <input type="text" /> -->
 		<label for="category"></label>
@@ -27,8 +33,9 @@ require_once 'includes/nav.php';
 			<option value="4">Horreur</option>
 			<option value="5">Drame</option>
 		</select>
-
-		<input type="submit" value="publier" class="btn btn-primary" />
+		<div class="position-relative mt-3 ">
+			<input type="submit" value="publier" class="btn publish btn-primary position-absolute start-50 translate-middle-x mb-5" />
+		</div>
 	</form>
 </main>
 <?php require_once 'includes/footer.php' ?>;

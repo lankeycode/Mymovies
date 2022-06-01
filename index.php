@@ -40,7 +40,7 @@ require_once 'includes/nav.php';
 		<input type="search" id="formSearch" class="form-control" />
 		<label class="form-label" for="formSearch">Trouver un film</label>
 	</div>
-	<button class="" type="button" class="btn searchBtn btn-primary">
+	<button type="button" class="btn searchBtn btn-primary">
 		<i class="fas fa-search"></i>
 	</button>
 </div>
