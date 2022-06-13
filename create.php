@@ -6,14 +6,15 @@ require_once 'includes/nav.php';
 
 <main>
 	<h3 class="text-center mb-20">Publier un nouveau un film</h3>
+	<br>
 	<form class="container" method="POST">
 		<div class="mb-3">
 			<label for="title">Titre</label>
 			<input type="text" id="title" placeholder="Le titre du film" />
 		</div>
 		<div class="mb-3">
-			<label for="synopsis">Synopsis</label>
-			<textarea name="synopsis" id="synopsis" placeholder="description du film" cols="40" rows="10"></textarea>
+			<label for="description">Déscription</label>
+			<textarea name="description" id="description" placeholder="description du film" cols="40" rows="10"></textarea>
 		</div>
 		<div class="mb-3">
 			<div>
